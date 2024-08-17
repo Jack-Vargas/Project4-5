@@ -32,11 +32,6 @@ public class Koopa : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D hitInfo)
-    {
-        
-    }
-
     private void Update()
     {
         if (moving == true)
